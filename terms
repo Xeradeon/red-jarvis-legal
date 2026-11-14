@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<meta name="description" content="Hinweise zum privaten Gebrauch und zur Bankanbindung">
+<title>Nutzungsbedingungen – Red Jarvis</title>
+<style>
+:root{color-scheme:dark;--bg:#0e070a;--panel:#1a0c12;--border:#762139;--red:#ff365f;--text:#f6edf1;--muted:#cbb9c2}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 50% 0,#2a0b18 0,#0e070a 65%);color:var(--text);font-family:system-ui,-apple-system,'Segoe UI',sans-serif;line-height:1.72}
+header,main,footer{max-width:860px;margin:auto;padding:28px 25px}
+header{padding-top:45px;border-bottom:1px solid var(--border)}.brand{font-weight:800;letter-spacing:.19em;color:var(--red);font-size:1.2rem}
+nav{display:flex;flex-wrap:wrap;gap:16px;margin-top:18px}nav a,footer a,a{color:#ff7893}nav a{text-decoration:none;border-bottom:1px solid transparent}nav a:hover{border-color:currentColor}
+h1{line-height:1.2;font-size:clamp(2rem,5vw,2.9rem);margin:14px 0 6px}h2{font-size:1.23rem;margin:2rem 0 .6rem;color:#ff9baf}
+p,li{color:var(--text)}.muted{color:var(--muted)}.lead{font-size:1.12rem;color:#f4ccd7}
+article{background:rgba(26,12,18,.82);border:1px solid var(--border);border-radius:16px;padding:clamp(18px,4vw,32px);margin:24px 0}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+.card{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:20px;text-decoration:none;display:block}
+.card strong{display:block;font-size:1.15rem;color:var(--text)}.card span{color:var(--muted)}
+footer{font-size:.88rem;color:var(--muted);border-top:1px solid var(--border);padding-bottom:45px}
+a:focus-visible{outline:2px solid #fff;outline-offset:4px}
+</style>
+</head>
+<body>
+<header>
+<div class="brand">● RED JARVIS</div>
+<nav aria-label="Hauptnavigation">
+<a href="index.html">Startseite</a>
+<a href="privacy.html">Datenschutz</a>
+<a href="terms.html">Nutzungsbedingungen</a>
+</nav>
+</header>
+<main>
+<h1>Nutzungsbedingungen</h1>
+<p class="lead">Hinweise zum privaten Gebrauch und zur Bankanbindung</p>
+<p class="muted">Stand: 14. November 2026</p>
+<article>
+<h2>1. Gegenstand</h2>
+<p>Red Jarvis ist ein privat entwickelter, nichtkommerzieller Assistent. Der Finanzbereich dient der persönlichen Übersicht über eigene Konten und Buchungen. Die vorliegenden Hinweise beschreiben den derzeit vorgesehenen privaten Einsatz und stellen kein öffentliches Dienstleistungsangebot dar.</p>
+<h2>2. Nutzung und Bankautorisierung</h2>
+<p>Eine Verbindung zu einem Bankkonto wird nur nach einer gesonderten Autorisierung durch die kontoberechtigte Person eingerichtet. Die Autorisierung erfolgt über die hierfür vorgesehenen Abläufe der beteiligten Bank beziehungsweise von Enable Banking. Die jeweiligen Bedingungen der Bank und des Schnittstellenanbieters gelten unabhängig hiervon.</p>
+<h2>3. Funktionsumfang</h2>
+<p>Die Bankanbindung ist auf das Lesen und Auswerten von Kontoinformationen, verfügbaren Kontoständen und Umsätzen ausgelegt. Red Jarvis veranlasst darüber keine Überweisungen, Zahlungen oder sonstigen Banktransaktionen. Eine fehlende Saldeninformation wird als unbekannt ausgewiesen und nicht aus Buchungsbewegungen geschätzt.</p>
+<h2>4. Datenqualität und Verfügbarkeit</h2>
+<p>Kontostände und Buchungen können verzögert, unvollständig oder zeitweise nicht abrufbar sein. Informationen stammen gegebenenfalls von Drittanbietern und Banken. Red Jarvis stellt keine Garantie für ständige Erreichbarkeit, Aktualität oder Vollständigkeit dieser externen Daten dar.</p>
+<h2>5. Kein Finanz- oder Anlageberatungsangebot</h2>
+<p>Die dargestellten Informationen dienen nur der persönlichen Orientierung. Sie sind keine Anlage-, Rechts-, Steuer- oder Finanzberatung und ersetzen nicht die offiziellen Unterlagen beziehungsweise Kontostandsanzeigen der Bank.</p>
+<h2>6. Sicherheit</h2>
+<p>Die nutzende Person ist für den Schutz ihres Windows-Kontos, ihrer Gerätesicherheit, von Sicherungskopien und privaten API-Schlüsseln verantwortlich. Bank-PINs und private Schlüssel dürfen nicht auf öffentlichen Seiten veröffentlicht oder an Dritte weitergegeben werden.</p>
+<h2>7. Beendigung</h2>
+<p>Bankautorisierungen können nach den jeweils verfügbaren Funktionen beim Anbieter beziehungsweise der Bank beendet werden. Bereits lokal gespeicherte Buchungen können davon unberührt bleiben und müssen bei Bedarf gesondert gelöscht werden.</p>
+<h2>8. Änderungen</h2>
+<p>Wenn Red Jarvis in Zukunft über den beschriebenen Privatgebrauch hinaus angeboten wird oder Funktionen mit Zahlungswirkung ergänzt werden, sind diese Nutzungsbedingungen vorab neu zu bewerten.</p>
+<h2>9. Kontakt</h2>
+<p>Fragen zu dieser privaten Anwendung: <a href="mailto:davidberghofer05@hotmail.de">davidberghofer05@hotmail.de</a>.</p>
+</article>
+</main>
+<footer>Red Jarvis · Private, nichtkommerzielle Anwendung · <a href="mailto:davidberghofer05@hotmail.de">Kontakt</a></footer>
+</body>
+</html>
