@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<meta name="description" content="Private Anwendung · Nur Lesezugriff auf eigene Bankkonten">
+<title>Rechtliche Informationen – Red Jarvis</title>
+<style>
+:root{color-scheme:dark;--bg:#0e070a;--panel:#1a0c12;--border:#762139;--red:#ff365f;--text:#f6edf1;--muted:#cbb9c2}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 50% 0,#2a0b18 0,#0e070a 65%);color:var(--text);font-family:system-ui,-apple-system,'Segoe UI',sans-serif;line-height:1.72}
+header,main,footer{max-width:860px;margin:auto;padding:28px 25px}
+header{padding-top:45px;border-bottom:1px solid var(--border)}.brand{font-weight:800;letter-spacing:.19em;color:var(--red);font-size:1.2rem}
+nav{display:flex;flex-wrap:wrap;gap:16px;margin-top:18px}nav a,footer a,a{color:#ff7893}nav a{text-decoration:none;border-bottom:1px solid transparent}nav a:hover{border-color:currentColor}
+h1{line-height:1.2;font-size:clamp(2rem,5vw,2.9rem);margin:14px 0 6px}h2{font-size:1.23rem;margin:2rem 0 .6rem;color:#ff9baf}
+p,li{color:var(--text)}.muted{color:var(--muted)}.lead{font-size:1.12rem;color:#f4ccd7}
+article{background:rgba(26,12,18,.82);border:1px solid var(--border);border-radius:16px;padding:clamp(18px,4vw,32px);margin:24px 0}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+.card{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:20px;text-decoration:none;display:block}
+.card strong{display:block;font-size:1.15rem;color:var(--text)}.card span{color:var(--muted)}
+footer{font-size:.88rem;color:var(--muted);border-top:1px solid var(--border);padding-bottom:45px}
+a:focus-visible{outline:2px solid #fff;outline-offset:4px}
+</style>
+</head>
+<body>
+<header>
+<div class="brand">● RED JARVIS</div>
+<nav aria-label="Hauptnavigation">
+<a href="index.html">Startseite</a>
+<a href="privacy.html">Datenschutz</a>
+<a href="terms.html">Nutzungsbedingungen</a>
+</nav>
+</header>
+<main>
+<h1>Rechtliche Informationen</h1>
+<p class="lead">Private Anwendung · Nur Lesezugriff auf eigene Bankkonten</p>
+<p class="muted">Stand: 14. November 2026</p>
+<article>
+<p>Red Jarvis ist ein privater persönlicher Assistent. Die Bankanbindung dient ausschließlich der lesenden Einsicht in eigene, ausdrücklich autorisierte Konten. Diese Website stellt die begleitenden Informationen zu Datenschutz und Nutzung bereit.</p>
+<div class="cards">
+<a class="card" href="privacy.html"><strong>Datenschutz</strong><span>Welche Bankinformationen verarbeitet und gespeichert werden können.</span></a>
+<a class="card" href="terms.html"><strong>Nutzungsbedingungen</strong><span>Privater Einsatz, Bankautorisierung, Verfügbarkeit und Sicherheit.</span></a>
+</div>
+<p class="muted">Die Seiten enthalten keine Bank-Anmeldung und fragen keine Zugangsdaten ab.</p>
+</article>
+</main>
+<footer>Red Jarvis · Private, nichtkommerzielle Anwendung · <a href="mailto:davidberghofer05@hotmail.de">Kontakt</a></footer>
+</body>
+</html>
