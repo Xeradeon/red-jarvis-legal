@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<meta name="description" content="Informationen zur Verarbeitung von Kontodaten in Red Jarvis">
+<title>Datenschutz – Red Jarvis</title>
+<style>
+:root{color-scheme:dark;--bg:#0e070a;--panel:#1a0c12;--border:#762139;--red:#ff365f;--text:#f6edf1;--muted:#cbb9c2}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 50% 0,#2a0b18 0,#0e070a 65%);color:var(--text);font-family:system-ui,-apple-system,'Segoe UI',sans-serif;line-height:1.72}
+header,main,footer{max-width:860px;margin:auto;padding:28px 25px}
+header{padding-top:45px;border-bottom:1px solid var(--border)}.brand{font-weight:800;letter-spacing:.19em;color:var(--red);font-size:1.2rem}
+nav{display:flex;flex-wrap:wrap;gap:16px;margin-top:18px}nav a,footer a,a{color:#ff7893}nav a{text-decoration:none;border-bottom:1px solid transparent}nav a:hover{border-color:currentColor}
+h1{line-height:1.2;font-size:clamp(2rem,5vw,2.9rem);margin:14px 0 6px}h2{font-size:1.23rem;margin:2rem 0 .6rem;color:#ff9baf}
+p,li{color:var(--text)}.muted{color:var(--muted)}.lead{font-size:1.12rem;color:#f4ccd7}
+article{background:rgba(26,12,18,.82);border:1px solid var(--border);border-radius:16px;padding:clamp(18px,4vw,32px);margin:24px 0}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+.card{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:20px;text-decoration:none;display:block}
+.card strong{display:block;font-size:1.15rem;color:var(--text)}.card span{color:var(--muted)}
+footer{font-size:.88rem;color:var(--muted);border-top:1px solid var(--border);padding-bottom:45px}
+a:focus-visible{outline:2px solid #fff;outline-offset:4px}
+</style>
+</head>
+<body>
+<header>
+<div class="brand">● RED JARVIS</div>
+<nav aria-label="Hauptnavigation">
+<a href="index.html">Startseite</a>
+<a href="privacy.html">Datenschutz</a>
+<a href="terms.html">Nutzungsbedingungen</a>
+</nav>
+</header>
+<main>
+<h1>Datenschutz</h1>
+<p class="lead">Informationen zur Verarbeitung von Kontodaten in Red Jarvis</p>
+<p class="muted">Stand: 14. November 2026</p>
+<article>
+<h2>1. Über diese Anwendung</h2>
+<p>Red Jarvis ist ein privater, nichtkommerzieller persönlicher Assistent mit einem Finanzbereich. Die Bankanbindung ist dazu vorgesehen, ausschließlich eigene, ausdrücklich verknüpfte Konten und deren Kontoinformationen lesend anzuzeigen und auszuwerten. Red Jarvis bietet keine Zahlungen oder Überweisungen an.</p>
+<h2>2. Kontakt</h2>
+<p>Kontakt für Datenschutzanfragen: <a href="mailto:davidberghofer05@hotmail.de">davidberghofer05@hotmail.de</a>. Die Anwendung wird für private Zwecke betrieben; sie ist kein öffentlich angebotener Bankdienst.</p>
+<h2>3. Welche Informationen verarbeitet werden können</h2>
+<p>Bei freiwilliger Aktivierung der Bankanbindung können insbesondere Bankname, verkürzte Kontokennung, Kontostände (soweit von der Bank bereitgestellt), Umsätze einschließlich Betrag, Datum, Verwendungszweck und Gegenpartei, Synchronisierungsstatus sowie Verbindungs- und Autorisierungsmetadaten verarbeitet werden. Zusätzlich können lokal importierte CSV-Buchungen gespeichert werden.</p>
+<h2>4. Zweck und Ablauf der Bankanbindung</h2>
+<p>Die Informationen werden zur persönlichen Kontenübersicht, zur Darstellung von Buchungen und für Einnahmen-/Ausgaben-Auswertungen verarbeitet. Die Bankauswahl und Autorisierung erfolgen über die reguläre Freigabe des Bankanbieters. Die Anbindung nutzt die Schnittstelle von <a href="https://enablebanking.com/">Enable Banking</a>; zur Durchführung der Bankabfrage sind technische Übermittlungen an Enable Banking beziehungsweise beteiligte Banken erforderlich. Die geltenden Datenschutzbedingungen dieser Dienste sind separat zu beachten.</p>
+<h2>5. Speicherung und Zugriff</h2>
+<p>Nach der beschriebenen technischen Implementierung liegt der Banking-Datenspeicher auf dem eigenen Windows-Rechner und wird mit Windows DPAPI im CurrentUser-Kontext geschützt. Die Sicherheit hängt deshalb auch vom Schutz dieses Windows-Benutzerkontos und von gegebenenfalls vorhandenen Sicherungskopien ab. Eine Abkopplung der Bank kann bereits gespeicherte Umsätze bestehen lassen, bis diese gesondert entfernt werden.</p>
+<h2>6. Speicherdauer und Löschung</h2>
+<p>Gespeicherte lokale Informationen verbleiben grundsätzlich bis zu ihrer Entfernung durch die nutzende Person beziehungsweise bis zur Löschung der betreffenden lokalen Daten oder Backups. Für Daten im Einflussbereich von Enable Banking und der Bank gelten deren gesonderte Regeln. Eine automatische Löschfrist wird hier nicht zugesagt.</p>
+<h2>7. Öffentliche Informationsseiten</h2>
+<p>Diese Datenschutzseite und die Nutzungsbedingungen sind statische Dokumente. Sie verwenden selbst keine Analyse-Skripte, Werbetracker oder Eingabeformulare. Bei Abruf über GitHub Pages kann GitHub technische Zugriffsdaten für den Betrieb der Website verarbeiten. Informationen dazu stehen in der <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">Datenschutzerklärung von GitHub</a>.</p>
+<h2>8. Sicherheit und Berichtigung</h2>
+<p>Es werden keine Bank-PINs in Formularen dieser Website abgefragt. Zugangsschlüssel dürfen nicht öffentlich geteilt werden. Bei Fragen zur gespeicherten Information oder zur Beendigung der privaten Bankanbindung bitte die oben angegebene Kontaktadresse verwenden.</p>
+<h2>9. Geltungsbereich</h2>
+<p>Diese Erklärung beschreibt die derzeit vorgesehene private Nutzung von Red Jarvis. Wird die Anwendung anderen Personen angeboten, öffentlich betrieben oder technisch wesentlich verändert, müssen diese Angaben vorab überprüft und gegebenenfalls ergänzt werden.</p>
+</article>
+</main>
+<footer>Red Jarvis · Private, nichtkommerzielle Anwendung · <a href="mailto:davidberghofer05@hotmail.de">Kontakt</a></footer>
+</body>
+</html>
